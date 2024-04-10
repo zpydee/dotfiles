@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# DOTFILES=(.bash_profile .gitconfig .gitignore .zshrc)
+DOTFILES=(.zshrc)
+
+for dotfile in $(echo ${DOTFILES[*]});
+do
+    cp ~/dotfiles/$(echo $dotfile) ~/$(echo $dotfile)
+done
