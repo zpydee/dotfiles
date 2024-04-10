@@ -1,0 +1,45 @@
+export ZSH="$HOME/.oh-my-zsh"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$HOME/.volta/bin:$PATH"
+
+ZSH_THEME="robbyrussell"
+CASE_SENSITIVE="true"
+ENABLE_CORRECTION="true"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+export EDITOR='nano'
+
+# -------
+# Aliases
+# -------
+alias l="ls"      # List files in current directory
+alias ll="ls -al" # List all files in current directory in long list format
+alias o="open ."  # Open the current directory in Finder
+
+# ---------------------
+# PNPM Aliases
+# ---------------------
+alias px='pnpm dlx'
+alias pr='pnpm run'
+alias pi='pnpm install'
+
+# ---------------------
+# NX Aliases
+# ---------------------
+alias nx='px nx'
+alias nr='nx run'
+alias nrm='nx run-many -t'
+
+# ---------------------
+# Spwntch Monorepo Script Aliases
+# ---------------------
+alias build='pr build'
+alias docs='pr docs'
+alias webp='pr webp'
+alias local-registry='pr local-registry'
+alias spawn-workspace='pr spawn-workspace'
+alias add-shad='pr add-shad'
+alias ci='pr ci'
