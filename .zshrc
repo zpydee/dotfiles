@@ -37,9 +37,11 @@ alias nrm='nx run-many -t'
 # Spwntch Monorepo Script Aliases
 # ---------------------
 alias build='pr build'
+alias release='pr release'
+alias publish='pr publish'
 alias docs='pr docs'
 alias webp='pr webp'
-alias local-registry='pr local-registry'
+alias registry='pr registry'
 alias spawn-workspace='pr spawn-workspace'
 alias add-shad='pr add-shad'
 alias ci='pr ci'
