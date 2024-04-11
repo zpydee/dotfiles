@@ -37,6 +37,7 @@ alias nrm='nx run-many -t'
 # ---------------------
 # Spwntch Monorepo Script Aliases
 # ---------------------
+alias clean='pr clean'
 alias build='pr build'
 alias release='pr release'
 alias publish='pr publish'
