@@ -1,6 +1,4 @@
 export ZSH="$HOME/.oh-my-zsh"
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$HOME/.volta/bin:$PATH"
 
 ZSH_THEME="robbyrussell"
 CASE_SENSITIVE="true"
